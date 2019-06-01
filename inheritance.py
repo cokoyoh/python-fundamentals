@@ -34,10 +34,10 @@ class Circle(AbstractClassShapes):
         return 2 * math.pi * self.__radius
 
 
-rectangle = Rectangle(4, 5)
-print(rectangle.area())
-print(rectangle.perimeter())
-
-circle = Circle(7)
-print(circle.area())
-print(circle.circumference())
+# rectangle = Rectangle(4, 5)
+# print(rectangle.area())
+# print(rectangle.perimeter())
+#
+# circle = Circle(7)
+# print(circle.area())
+# print(circle.circumference())

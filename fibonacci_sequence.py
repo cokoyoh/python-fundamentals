@@ -1,13 +1,8 @@
 def display():
     num_in_sequence = input('How many fibonacci numbers do you need? ')
+    results_list = [fibonacci(number) for number in range(int(num_in_sequence))]
 
-    final_list = []
-
-    for number in range(int(num_in_sequence)):
-        fib = fibonacci(number)
-        final_list.append(fib)
-
-    print(final_list)
+    print(results_list)
 
 
 def fibonacci(number):
